@@ -41,7 +41,7 @@ npm start
 ```
 
 #### Backend
-1. Navigate to the backend directory.
+1. Navigate to the `backend` directory.
 2. Configure the database settings in application.properties.
 3. Build the project:
 ```bash
@@ -76,3 +76,5 @@ mvn spring-boot:run
 
 ## E-R Diagram
 ![E-R-Diagram](https://github.com/ramrajpatil/Blog-Management-System/assets/170900166/1c5ac4a9-9383-45e7-b1ed-877d657a3a43)
+
+<img src="https://github.com/ramrajpatil/Blog-Management-System/assets/170900166/1c5ac4a9-9383-45e7-b1ed-877d657a3a43" alt="E-R Diagram" width="600">
