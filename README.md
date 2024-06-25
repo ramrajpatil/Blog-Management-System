@@ -75,6 +75,4 @@ mvn spring-boot:run
 - **Contributions** are welcome! Please fork the repository and create a pull request with your changes.
 
 ## E-R Diagram
-![E-R-Diagram](https://github.com/ramrajpatil/Blog-Management-System/assets/170900166/1c5ac4a9-9383-45e7-b1ed-877d657a3a43)
-
-<img src="https://github.com/ramrajpatil/Blog-Management-System/assets/170900166/1c5ac4a9-9383-45e7-b1ed-877d657a3a43" alt="E-R Diagram" width="600">
+<img src="https://github.com/ramrajpatil/Blog-Management-System/assets/170900166/1c5ac4a9-9383-45e7-b1ed-877d657a3a43" alt="E-R Diagram" width="500">
