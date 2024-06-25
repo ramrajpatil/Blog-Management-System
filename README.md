@@ -35,7 +35,7 @@ The Blog Management System is a web application designed to facilitate the creat
    npm install
    ```
 
-#### Start the development server:
+3. Start the development server:
 ```bash
 npm start
 ```
