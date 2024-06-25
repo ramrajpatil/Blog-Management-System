@@ -31,9 +31,9 @@ The Blog Management System is a web application designed to facilitate the creat
 #### Frontend
 1. Navigate to the `frontend` directory.
 2. Install dependencies:
-   ```bash
-   npm install
-   ```
+```bash
+npm install
+```
 
 3. Start the development server:
 ```bash
