@@ -33,3 +33,46 @@ The Blog Management System is a web application designed to facilitate the creat
 2. Install dependencies:
    ```bash
    npm install
+   ```
+
+#### Start the development server:
+```bash
+npm start
+```
+
+#### Backend
+1. Navigate to the backend directory.
+2. Configure the database settings in application.properties.
+3. Build the project:
+```bash
+mvn clean install
+```
+4. Run the Spring Boot application:
+```bash
+mvn spring-boot:run
+```
+
+## API Endpoints
+
+### Authentication
+- `POST /api/auth/register`: Register a new user.
+- `POST /api/auth/login`: Login and retrieve a JWT token.
+
+### Posts
+- `GET /api/posts`: Retrieve all posts.
+- `GET /api/posts/{postId}`: Retrieve a single post by ID.
+- `POST /api/posts`: Create a new post.
+- `PUT /api/posts/{postId}`: Update an existing post.
+- `DELETE /api/posts/{postId}`: Delete a post.
+
+### Comments
+- `GET /api/posts/{postId}/comments`: Retrieve all comments for a post.
+- `POST /api/posts/{postId}/comments`: Add a comment to a post.
+- `PUT /api/comments/{cId}`: Update a comment.
+- `DELETE /api/comments/{cId}`: Delete a comment.
+
+## Contributing
+- **Contributions** are welcome! Please fork the repository and create a pull request with your changes.
+
+## E-R Diagram
+![E-R-Diagram](https://github.com/ramrajpatil/Blog-Management-System/assets/170900166/1c5ac4a9-9383-45e7-b1ed-877d657a3a43)
